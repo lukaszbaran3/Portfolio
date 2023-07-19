@@ -1,0 +1,18 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: 10%;
+}
+.menu-list {
+  display: flex;
+  gap: 50%;
+  justify-content: center;
+  margin-top: 1%;
+}
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+}

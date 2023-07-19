@@ -1,0 +1,13 @@
+.homepage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.homepageImg {
+  background-image: url(../Images/HomepageImg.webp);
+  width: 550px;
+  height: 450px;
+  background-size: cover;
+}

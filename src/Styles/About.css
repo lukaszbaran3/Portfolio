@@ -1,0 +1,66 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.aboutContainer {
+  display: flex;
+  width: 80%;
+  height: 50%;
+  padding: 1rem;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: #11111a1a 0 4px 16px, #11111a1a 0 8px 24px, #11111a1a 0 16px 56px;
+  margin: auto;
+}
+.aboutDescription {
+  width: 50%;
+  overflow: hidden;
+  letter-spacing: 0.5px;
+}
+.aboutDescription h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+.aboutDescription p {
+  font-size: 1.1em;
+}
+.aboutImg {
+  background-image: url(../Images/about-me.png);
+  width: 50%;
+  background-size: cover;
+}
+.skillBoxes {
+  display: flex;
+}
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 100px;
+  margin-top: 15%;
+  margin-right: 10%;
+  align-items: center;
+}
+.skillBox p {
+  margin-top: 10%;
+}
+.skill {
+  height: 65px;
+}
+
+.slider {
+  position: relative;
+  animation: slider-animation 10s linear infinite;
+  transform: none;
+}
+
+@keyframes slider-animation {
+  0% {
+    transform: translateX(15%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}

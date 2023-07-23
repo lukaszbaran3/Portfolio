@@ -1,0 +1,63 @@
+.projectsContainer {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.projectCard {
+  width: 30%;
+  height: 70%;
+  box-shadow: #11111a1a 0 4px 16px, #11111a1a 0 8px 24px, #11111a1a 0 16px 56px;
+  border-radius: 15px;
+  padding: 1.5em;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projectCard p {
+  margin-top: 5%;
+  letter-spacing: 0.5px;
+}
+.ReactCryptoCoinImg {
+  background-image: url(../Images/ReactCryptoCoin.png);
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.projectCard:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: all 0.5s ease 0s;
+}
+.APIPokemon {
+}
+.view {
+  width: 80%;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 5em;
+  margin-top: 20px;
+}
+.view a {
+  text-decoration: none;
+  color: inherit;
+}
+.view:hover {
+  color: white;
+  border: 1px solid white;
+}

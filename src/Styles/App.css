@@ -110,6 +110,7 @@ body {
     #ffcc70 100%
   );
   overflow: hidden;
+  font-family: "Lato", sans-serif;
 }
 ol,
 ul {

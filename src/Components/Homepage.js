@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Homepage.css";
 import Typewriter from "typewriter-effect";
-import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -31,6 +30,7 @@ function Homepage() {
           className="github"
           href="https://github.com/lukaszbaran3"
           target="_blank"
+          rel="noreferrer"
         >
           <i class="fa-brands fa-github"></i>
         </a>

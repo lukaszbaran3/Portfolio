@@ -15,6 +15,12 @@
   color: white;
   font-size: 1.6rem;
 }
+.menu-list p {
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Dancing Script", cursive;
+  cursor: default;
+}
 .menu-list a:hover {
   color: black;
 }
@@ -23,4 +29,21 @@
   border: none;
   border-radius: 10px;
   width: 100px;
+}
+@media (max-width: 1160px) {
+  .menu-list {
+    width: 70%;
+    gap: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .menu-list {
+    width: 70%;
+    gap: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .menu-list {
+    display: none;
+  }
 }

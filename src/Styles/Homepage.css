@@ -69,3 +69,9 @@
     transform: rotate(0deg);
   }
 }
+@media (max-width: 768px) {
+  .homepage {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+}

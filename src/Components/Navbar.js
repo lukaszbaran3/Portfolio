@@ -6,6 +6,9 @@ function Navbar() {
     <div className="navbar">
       <ul className="menu-list">
         <li>
+          <p>Portfolio</p>
+        </li>
+        <li>
           <Link to="/">Home</Link>
         </li>
         <li>

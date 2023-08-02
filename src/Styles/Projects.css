@@ -28,12 +28,8 @@
   letter-spacing: 0.5px;
 }
 .ReactCryptoCoinImg {
-  background-image: url(../Images/ReactCryptoCoin.png);
-  height: 100%;
+  height: auto;
   width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .projectCard:hover {
   cursor: pointer;
@@ -60,4 +56,24 @@
 .view:hover {
   color: white;
   border: 1px solid white;
+}
+.projectTitle {
+  left: 0;
+}
+@media (max-width: 1205px) {
+  .projectCard p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 790px) {
+  .projectCard p {
+    font-size: 0.8rem;
+    overflow: auto;
+  }
+  .ReactCryptoCoinImg {
+    height: 30%;
+  }
+  .view {
+    height: 10%;
+  }
 }

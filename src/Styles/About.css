@@ -27,9 +27,7 @@
   font-size: 1.1em;
 }
 .aboutImg {
-  background-image: url(../Images/about-me.png);
   width: 50%;
-  background-size: cover;
 }
 .skillBoxes {
   display: flex;
@@ -62,5 +60,24 @@
   }
   100% {
     transform: translateX(-135%);
+  }
+}
+@media (max-width: 1024px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: auto;
+  }
+  .aboutDescription {
+    width: 80%;
+  }
+  .aboutImg {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .aboutDescription p {
+    font-size: 1rem;
   }
 }

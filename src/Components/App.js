@@ -4,9 +4,11 @@ import Navbar from "./Navbar";
 import About from "./About";
 import "../Styles/App.css";
 import Projects from "./Projects";
+import DropdownMenu from "./DropdownMenu";
 function App() {
   return (
     <BrowserRouter>
+      <DropdownMenu />
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />

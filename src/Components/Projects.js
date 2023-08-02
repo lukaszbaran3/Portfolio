@@ -4,7 +4,11 @@ function Projects() {
   return (
     <div className="projectsContainer">
       <div className="ReactCryptoCoin projectCard">
-        <div className="ReactCryptoCoinImg"></div>
+        <img
+          className="ReactCryptoCoinImg"
+          src={require("../Images/ReactCryptoCoin.png")}
+          alt="ReactCryptoCoin"
+        ></img>
         <p>
           ReactCryptoCoin is a simple and intuitive application that allows you
           to track and monitor various cryptocurrencies in real time. Thanks to

@@ -97,7 +97,11 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="aboutImg"></div>
+        <img
+          className="aboutImg"
+          src={require("../Images/about-me.png")}
+          alt="About Me"
+        ></img>
       </div>
     </div>
   );

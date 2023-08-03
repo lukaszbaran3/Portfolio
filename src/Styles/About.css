@@ -80,4 +80,7 @@
   .aboutDescription p {
     font-size: 1rem;
   }
+  .skill {
+    height: 45px;
+  }
 }

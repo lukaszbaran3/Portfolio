@@ -8,7 +8,7 @@ function Homepage() {
       <div className="homepageText">
         <h1>
           Hello {"  "}
-          <span class="wave">👋</span>
+          <span className="wave">👋</span>
         </h1>
         <span>I`m Łukasz Baran</span>
         <Typewriter

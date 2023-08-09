@@ -35,7 +35,7 @@ function Homepage() {
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
-      <div className="homepageImg"></div>
+      <img src={require("../Images/my-photo.png")} className="homepageImg" />
     </div>
   );
 }

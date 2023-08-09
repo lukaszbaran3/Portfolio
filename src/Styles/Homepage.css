@@ -7,13 +7,17 @@
   font-size: 2em;
 }
 .homepageImg {
-  background-image: url(../Images/HomepageImg.webp);
-  width: 550px;
-  height: 450px;
-  background-size: cover;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  border-radius: 50%;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
+  margin: auto;
+  box-shadow: ;
 }
+
 .homepageText {
   width: 320px;
+  margin-left: 10%;
 }
 .github {
   text-decoration: none;
@@ -71,8 +75,13 @@
   }
 }
 @media (max-width: 768px) {
+  .homepageText {
+    margin-top: 10%;
+  }
   .homepage {
     flex-direction: column;
-    padding-top: 10%;
+  }
+  .homepageImg {
+    height: 60%;
   }
 }

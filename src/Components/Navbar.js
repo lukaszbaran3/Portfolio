@@ -18,7 +18,12 @@ function Navbar() {
           <Link to="projects">Projects</Link>
         </li>
         <button className="cv">
-          <Link to="cv">CV</Link>
+          <Link
+            to="https://drive.google.com/file/d/1lw8bcqKbDrlcRGtqudkTIdvt6LXy06dX/view?usp=sharing"
+            target="_blank"
+          >
+            CV
+          </Link>
         </button>
       </ul>
     </div>

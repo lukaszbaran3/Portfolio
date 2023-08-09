@@ -35,7 +35,11 @@ function Homepage() {
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
-      <img src={require("../Images/my-photo.png")} className="homepageImg" />
+      <img
+        src={require("../Images/my-photo.png")}
+        className="homepageImg"
+        alt="Lukasz Baran"
+      />
     </div>
   );
 }
